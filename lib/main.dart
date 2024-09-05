@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app/screens/todo_list_screen.dart';
+import 'package:todo_app/screens/login/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
-      home: const TodoListScreen(),
+      home: const LoginScreen(),
     );
   }
 }
